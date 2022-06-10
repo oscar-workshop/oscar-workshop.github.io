@@ -15,7 +15,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 24px calc(((100% - 1140px) / 2) + 123px) 60px calc(((100% - 1140px) / 2) + 40px);
+  margin: 25px calc(((100% - 1140px) / 2) + 123px) 60px calc(((100% - 1140px) / 2) + 40px);
 }
 
 @media (max-width: 1199px) {
