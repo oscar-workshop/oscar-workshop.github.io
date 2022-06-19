@@ -1,5 +1,5 @@
  .u-section-1 {
-  min-height: 1624px;
+  min-height: 1672px;
 }
 
 .u-section-1 .u-image-1 {
@@ -90,7 +90,8 @@
 
 .u-section-1 .u-group-1 {
   width: 989px;
-  min-height: 933px;
+  min-height: 981px;
+  height: auto;
   margin: -26px auto 0;
 }
 
@@ -166,6 +167,7 @@
     width: 940px;
     margin-left: calc(((100% - 940px) / 2));
     margin-right: calc(((100% - 940px) / 2));
+    height: auto;
   }
 }
 
