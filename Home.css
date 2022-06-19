@@ -91,7 +91,6 @@
 .u-section-1 .u-group-1 {
   width: 989px;
   min-height: 981px;
-  height: auto;
   margin: -26px auto 0;
 }
 
@@ -167,7 +166,6 @@
     width: 940px;
     margin-left: calc(((100% - 940px) / 2));
     margin-right: calc(((100% - 940px) / 2));
-    height: auto;
   }
 }
 
