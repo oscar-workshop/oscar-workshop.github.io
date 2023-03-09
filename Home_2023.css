@@ -139,18 +139,23 @@
 
 .u-section-1 .u-btn-6 {
   background-image: none;
-  font-weight: 700;
-  margin-top: 0;
   padding: 0;
 }
 
 .u-section-1 .u-btn-7 {
   background-image: none;
   font-weight: 700;
+  margin-top: 0;
   padding: 0;
 }
 
 .u-section-1 .u-btn-8 {
+  background-image: none;
+  font-weight: 700;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-9 {
   background-image: none;
   padding: 0;
 }
