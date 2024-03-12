@@ -3,14 +3,14 @@
 }
 
 .u-section-1 .u-image-1 {
-  height: 528px;
+  height: 539px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1052px;
-  margin: -58px auto 0;
+  margin: -69px auto 0 calc(((100% - 1140px) / 2) + 44px);
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -66,7 +66,7 @@
 }
 
 .u-section-1 .u-layout-cell-3 {
-  min-height: 242px;
+  min-height: 299px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -122,7 +122,7 @@
   width: 989px;
   min-height: 993px;
   height: auto;
-  margin: -19px auto 60px;
+  margin: -21px auto 60px calc(((100% - 1140px) / 2) + 76px);
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -182,12 +182,12 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 2037px;
+    min-height: 2030px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
-    margin-top: -59px;
+    margin-left: calc(((100% - 940px) / 2));
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -199,7 +199,7 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 216px;
+    min-height: 267px;
   }
 
   .u-section-1 .u-layout-cell-4 {
@@ -213,17 +213,19 @@
 
   .u-section-1 .u-group-1 {
     width: 940px;
+    margin-left: calc(((100% - 940px) / 2));
     height: auto;
   }
 }
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 1921px;
+    min-height: 1863px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 720px;
+    margin-left: calc(((100% - 720px) / 2));
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -246,7 +248,7 @@
 
   .u-section-1 .u-group-1 {
     width: 720px;
-    min-height: 1122px;
+    margin-left: calc(((100% - 720px) / 2));
   }
 
   .u-section-1 .u-text-5 {
@@ -256,11 +258,12 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 2121px;
+    min-height: 2063px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -289,15 +292,18 @@
 
   .u-section-1 .u-group-1 {
     width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 }

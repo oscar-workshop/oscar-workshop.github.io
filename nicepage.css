@@ -42369,28 +42369,45 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-}
-
-.u-header .u-sheet-1 {
   min-height: 245px;
 }
 
 .u-header .u-text-1 {
   font-size: 1.875rem;
   font-weight: 700;
-  margin: 13px 0 60px;
+  margin: 13px 0 60px calc(((100% - 1140px) / 2));
 }
 
 .u-header .u-btn-1 {
   background-image: none;
   padding: 0;
 }
+@media (max-width: 1199px) {
+   .u-header {
+    min-height: 115px;
+  }
 
+  .u-header .u-text-1 {
+    margin-left: calc(((100% - 940px) / 2));
+  }
+}
+@media (max-width: 991px) {
+   .u-header {
+    min-height: 19px;
+  }
 
-
+  .u-header .u-text-1 {
+    margin-left: calc(((100% - 720px) / 2));
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 250px;
+  .u-header .u-text-1 {
+    margin-left: calc(((100% - 340px) / 2));
   }
 }
  .u-footer {
