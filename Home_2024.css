@@ -120,9 +120,9 @@
 
 .u-section-1 .u-group-1 {
   width: 989px;
-  min-height: 981px;
+  min-height: 993px;
   height: auto;
-  margin: -21px auto 60px;
+  margin: -19px auto 60px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -166,6 +166,16 @@
 }
 
 .u-section-1 .u-btn-10 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-11 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-12 {
   background-image: none;
   padding: 0;
 }
