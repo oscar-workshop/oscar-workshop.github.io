@@ -23,7 +23,7 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 19px calc(((100% - 1320px) / 2)  + 108px) 60px calc(((100% - 1320px) / 2)  + 47px);
+  margin: 19px calc(((100% - 1320px) / 2)  + 106px) 60px calc(((100% - 1320px) / 2)  + 49px);
 }
 
 .u-section-2 .u-icon-1 {
@@ -33,6 +33,12 @@
 .u-section-2 .u-btn-1 {
   background-image: none;
   font-weight: 700;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: none;
+  text-decoration: underline !important;
   padding: 0;
 }
 
