@@ -10,16 +10,25 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 32px calc(((100% - 1140px) / 2) + 598px) 0 calc(((100% - 1140px) / 2) + 40px);
+  width: 577px;
+  margin: 32px calc(((100% - 720px) / 2) + 218px) 0 calc(((100% - 720px) / 2));
 }
 
 .u-section-1 .u-text-2 {
-  margin: 25px calc(((100% - 1140px) / 2) + 123px) 60px calc(((100% - 1140px) / 2) + 40px);
+  margin: 25px calc(((100% - 720px) / 2)) 60px;
 }
 
 @media (max-width: 1399px) {
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
+    margin-right: calc(((100% - 1140px) / 2) + 598px);
+    margin-left: calc(((100% - 1140px) / 2) + 40px);
+    width: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: calc(((100% - 1140px) / 2) + 123px);
+    margin-left: calc(((100% - 1140px) / 2) + 40px);
   }
 }
 

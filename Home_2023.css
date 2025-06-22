@@ -13,7 +13,7 @@
     margin-bottom: 60px;
   }
 } .u-section-2 {
-  min-height: 1672px;
+  min-height: 1530px;
 }
 
 .u-section-2 .u-image-1 {
@@ -23,12 +23,12 @@
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  width: 1052px;
+  width: 720px;
   margin: -59px auto 0;
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 242px;
+  min-height: 100px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -36,9 +36,9 @@
 }
 
 .u-section-2 .u-icon-1 {
+  background-image: none;
   height: 79px;
   width: 79px;
-  background-image: none;
   margin: 15px auto 0;
   padding: 13px;
 }
@@ -53,7 +53,8 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 242px;
+  order: 2;
+  min-height: 100px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -78,7 +79,8 @@
 }
 
 .u-section-2 .u-layout-cell-3 {
-  min-height: 242px;
+  order: 1;
+  min-height: 100px;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -103,7 +105,7 @@
 }
 
 .u-section-2 .u-layout-cell-4 {
-  min-height: 242px;
+  min-height: 100px;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -111,16 +113,16 @@
 }
 
 .u-section-2 .u-icon-4 {
-  width: 88px;
   background-image: none;
-  height: 88px;
   color: rgb(0, 0, 0) !important;
+  width: 88px;
+  height: 88px;
   margin: 11px auto 0;
   padding: 13px;
 }
 
 .u-section-2 .u-text-4 {
-  margin: 15px 5px 0;
+  margin: 15px 0 0;
 }
 
 .u-section-2 .u-btn-4 {
@@ -129,7 +131,7 @@
 }
 
 .u-section-2 .u-group-1 {
-  width: 989px;
+  width: 720px;
   min-height: 981px;
   margin: -25px auto 1px;
 }
@@ -175,6 +177,18 @@
 }
 
 @media (max-width: 1399px) {
+   .u-section-2 {
+    min-height: 1672px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    width: 1052px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 242px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 1.25rem;
   }
@@ -183,12 +197,30 @@
     font-size: 1.5rem;
   }
 
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 242px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 242px;
+  }
+
   .u-section-2 .u-text-3 {
     font-size: 1.25rem;
   }
 
+  .u-section-2 .u-layout-cell-4 {
+    min-height: 242px;
+  }
+
   .u-section-2 .u-text-4 {
     font-size: 1.25rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: 989px;
   }
 }
 
