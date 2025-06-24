@@ -10,12 +10,12 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  width: 577px;
-  margin: 32px calc(((100% - 720px) / 2) + 218px) 0 calc(((100% - 720px) / 2));
+  width: 540px;
+  margin: 32px calc(((100% - 540px) / 2) + 38px) 0 calc(((100% - 540px) / 2));
 }
 
 .u-section-1 .u-text-2 {
-  margin: 25px calc(((100% - 720px) / 2)) 60px;
+  margin: 25px calc(((100% - 540px) / 2)) 60px;
 }
 
 @media (max-width: 1399px) {

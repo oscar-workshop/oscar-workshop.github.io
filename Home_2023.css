@@ -4,7 +4,14 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 600;
-  margin: 0 auto 0 0;
+  margin: 60px auto 60px 0;
+}
+
+@media (max-width: 1399px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -13,7 +20,7 @@
     margin-bottom: 60px;
   }
 } .u-section-2 {
-  min-height: 1530px;
+  min-height: 1730px;
 }
 
 .u-section-2 .u-image-1 {
@@ -23,7 +30,7 @@
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  width: 720px;
+  width: 540px;
   margin: -59px auto 0;
 }
 
@@ -32,7 +39,7 @@
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 30px 20px;
+  padding: 30px 10px;
 }
 
 .u-section-2 .u-icon-1 {
@@ -53,12 +60,12 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  order: 2;
+  order: 3;
   min-height: 100px;
 }
 
 .u-section-2 .u-container-layout-2 {
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 .u-section-2 .u-icon-2 {
@@ -84,7 +91,7 @@
 }
 
 .u-section-2 .u-container-layout-3 {
-  padding: 30px 20px 23px;
+  padding: 30px 30px 23px;
 }
 
 .u-section-2 .u-icon-3 {
@@ -109,7 +116,7 @@
 }
 
 .u-section-2 .u-container-layout-4 {
-  padding: 30px;
+  padding: 30px 10px;
 }
 
 .u-section-2 .u-icon-4 {
@@ -131,7 +138,7 @@
 }
 
 .u-section-2 .u-group-1 {
-  width: 720px;
+  width: 540px;
   min-height: 981px;
   margin: -25px auto 1px;
 }
@@ -189,6 +196,11 @@
     min-height: 242px;
   }
 
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 1.25rem;
   }
@@ -201,8 +213,18 @@
     min-height: 242px;
   }
 
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .u-section-2 .u-layout-cell-3 {
     min-height: 242px;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .u-section-2 .u-text-3 {
@@ -211,6 +233,11 @@
 
   .u-section-2 .u-layout-cell-4 {
     min-height: 242px;
+  }
+
+  .u-section-2 .u-container-layout-4 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .u-section-2 .u-text-4 {
