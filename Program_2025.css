@@ -4,35 +4,30 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 600;
-  margin: 0 858px 60px 0;
-}
-
-.u-section-1 .u-btn-1 {
-  background-image: none;
-  padding: 0;
+  margin: 0 795px 60px 0;
 }
 
 @media (max-width: 1399px) {
   .u-section-1 .u-text-1 {
-    margin-right: 678px;
+    margin-right: 615px;
   }
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    margin-right: 478px;
+    margin-right: 415px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
-    margin-right: 258px;
+    margin-right: 195px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    margin-right: 78px;
+    margin-right: 15px;
   }
 }
 
